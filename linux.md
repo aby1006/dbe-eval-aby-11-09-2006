@@ -176,6 +176,48 @@ Le rapport est généré dans le dossier rapports/.
 
 
 
+ L5 – Processus et signaux
+
+ 1. Création du script
+Fichier créé : `scripts/surveille.sh`.
+
+Le script :
+- Lit le nombre de lignes de `logs/access.log`.
+- Enregistre l'heure et le nombre de lignes dans `logs/surveillance.log`.
+- Répète l'opération toutes les 5 secondes.
+- Utilise `trap` pour intercepter SIGTERM et écrire « arrêt propre ».
+
+ 2. Lancement en arrière-plan
+
+    Commande :
+    nohup bash scripts/surveille.sh >/dev/null 2>&1 &
+    PID obtenu : 38812.
+
+ 3. Informations sur le processus
+
+    Commande :
+
+    ps -o pid,ppid,stat,etime -p 38812
+    Informations affichées :
+    - PID : identifiant du processus.
+    - PPID : identifiant du processus parent.
+    - STAT : état du processus.
+    - ETIME : durée écoulée depuis son lancement.
+
+ 4. Arrêt du processus
+
+    Commande :
+    kill -TERM 38812
+
+
+    Affichage des trois dernières lignes :
+tail -n 3 logs/surveillance.log
+
+
+
+
+
+
 
 
 
