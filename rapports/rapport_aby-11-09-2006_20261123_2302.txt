@@ -1,0 +1,22 @@
+===== RAPPORT D'ANALYSE =====
+Date : lun. 23 nov 2026 23:02:48 GMT
+Utilisateur / Machine : aby@aby-VMware-Virtual-Platform
+Matricule : aby-11-09-2006
+SHA256 : 76fccdbd2764b333296bff5e4cd6152e7fc9f7866f3d7b43f35b722642594342
+
+Nombre total de requêtes : 2000
+Nombre de requêtes 2xx : 1755
+Nombre de requêtes 3xx : 0
+Nombre de requêtes 4xx : 220
+Nombre de requêtes 5xx : 25
+
+Top 3 des endpoints :
+    377 /api/auth/login
+    303 /api/notes
+    276 /api/paiements
+
+IP suspecte (échecs 401 sur /api/auth/login) :
+    102 197.149.138.123
+
+Temps de réponse moyen (HTTP 200) :
+164,1 ms

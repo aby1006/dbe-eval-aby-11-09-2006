@@ -121,6 +121,59 @@ j. Tous les fichiers `.log` du projet modifiés il y a moins de 60 minutes et de
 
 
 
+ L4 – Script d'analyse
+
+ 1. Création du script
+    scripts/analyse.sh`
+
+Le script permet d'analyser un journal de logs et de générer un rapport.
+
+ 2. Codes de retour
+
+- Code 0 : exécution réussie.
+- Code 1 : arguments incorrects.
+- Code 2 : fichier inexistant.
+- Code 3 : fichier vide ou variable MATRICULE non définie.
+
+3. Tests effectués
+
+    Test 1 : Sans argument
+
+    bash scripts/analyse.sh
+    echo $?
+    Code obtenu : 1.
+
+    Test 2 : Fichier absen
+
+    bash scripts/analyse.sh absent.log
+    echo $?
+
+    Code obtenu : 2.
+
+    Test 3 : Fichier vid
+
+    bash scripts/analyse.sh logs/vide.log
+    echo $?
+    Code obtenu : 3.
+
+    Test 4 : Cas correct
+
+    bash scripts/analyse.sh logs/access.log
+    echo $?
+    Code obtenu : 0.
+
+4. Résultats de l'analyse
+
+- Nombre total de requêtes : 2000.
+- Requêtes HTTP 2xx : 1755.
+- Requêtes HTTP 3xx : 0.
+- Requêtes HTTP 4xx : 220.
+- Requêtes HTTP 5xx : 25.
+- Temps moyen HTTP 200 : 164,1 ms.
+
+Le rapport est généré dans le dossier rapports/.
+
+
 
 
 
