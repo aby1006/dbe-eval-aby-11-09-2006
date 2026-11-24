@@ -1,0 +1,51 @@
+    1  2026-11-23 20:11:53 exit
+    2  2026-11-23 20:27:15 git init 
+    3  2026-11-23 20:27:27 git add .
+    4  2026-11-23 20:28:19 git commit -m "Environnement et preuve"
+    5  2026-11-23 20:28:52 git branch -M main
+    6  2026-11-23 20:29:06 git remote add origin https://github.com/aby1006/dbe-eval-aby-11-09-2006.git
+    7  2026-11-23 20:29:34 git push -u origin main
+    8  2026-11-23 21:27:31 git add .
+    9  2026-11-23 21:28:40 git commit -m "ajout du L2 du pqrtie 2"
+   10  2026-11-23 21:53:52 git add . 
+   11  2026-11-23 21:54:42 git commit -m "ajout du L3 du partie 2"
+   12  2026-11-23 21:54:51 git push
+   13  2026-11-23 22:08:20 cd /
+   14  2026-11-23 22:09:23 cd dbe-eval-aby-11-09-2006
+   15  2026-11-23 22:09:33 cd
+   16  2026-11-23 22:09:46 cd dbe-eval-aby-11-09-2006/
+   17  2026-11-23 22:12:02 mkdir -p scripts
+   18  2026-11-23 22:12:54 nano scripts/analyse.sh
+   19* 2026-11-23 22:32:23 bash scripts/analyse.sh
+echo $?
+   20  2026-11-23 22:33:48 bash scripts/analyse.sh
+   21  2026-11-23 22:34:30 echo $?
+   22  2026-11-23 22:35:19 bash scripts/analyse.sh fichier_inexistant.log
+   23  2026-11-23 22:35:53 echo $?
+   24  2026-11-23 22:37:08 touch logs/vide.log
+   25  2026-11-23 22:37:24 bash scripts/analyse.sh logs/vide.log
+   26  2026-11-23 22:37:24 echo $?
+   27  2026-11-23 22:40:36 nano scripts/analyse.sh
+   28  2026-11-23 22:43:57 wc -l logs/access.log
+   29  2026-11-23 22:44:16 bash scripts/analyse.sh logs/access.log
+   30  2026-11-23 22:44:16 echo $?
+   31  2026-11-23 22:45:50 ls -l rapports/
+   32  2026-11-23 22:46:08 cat rapports/rapport_*.txt
+   33  2026-11-23 22:51:29 nano scripts/analyse.sh
+   34  2026-11-23 23:02:36 bash -n scripts/analyse.sh
+   35  2026-11-23 23:02:48 bash scripts/analyse.sh logs/access.log
+   36  2026-11-23 23:02:49 echo $?
+   37  2026-11-23 23:03:06 cat rapports/rapport_*.txt
+   38  2026-11-23 23:10:48 git add .
+   39  2026-11-23 23:11:48 git commit -m "ajout du rapport generes et L4 du partie 2"
+   40  2026-11-23 23:11:55 git push
+   41  2026-11-23 23:24:52 nano scripts/surveille.sh
+   42  2026-11-23 23:25:39 nohup bash scripts/surveille.sh >/dev/null 2>&1 &
+   43  2026-11-23 23:28:11 ps -o pid,ppid,stat,etime -p 38812
+   44  2026-11-23 23:29:19 kill -TERM "$PID"
+   45  2026-11-23 23:30:20 kill -TERM 38812
+   46  2026-11-23 23:30:57 tail -n 3 logs/surveillance.log
+   47  2026-11-23 23:39:08 git add . 
+   48  2026-11-23 23:40:15 git commit -m "ajout du fichier durveille.sh et L5 du partie 2"
+   49  2026-11-23 23:40:20 git push
+   50  2026-11-23 23:46:00 history > docs/preuves/historique_linux.txt

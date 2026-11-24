@@ -214,6 +214,33 @@ Le script :
 tail -n 3 logs/surveillance.log
 
 
+ L6 – Clôture et empreinte (1 pt)
+
+ 1. Enregistrement de l'historique
+
+    Commande :
+
+    history > docs/preuves/historique_linux.txt
+     enregistre l'historique des commandes dans un fichier texte historique_linux.txt.
+
+ 2. Fin de l'enregistrement
+
+    Commande :
+    exit
+
+ 3. Création de l'archive compressée
+
+    Commande :
+    tar czf rendus/linux_${MATRICULE}.tar.gz src scripts docs rapports
+
+ 4. Calcul de l'empreinte SHA256
+
+    Commande :
+    sha256sum rendus/linux_${MATRICULE}.tar.gz
+    
+
+
+
 
 
 
