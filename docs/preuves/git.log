@@ -1,0 +1,160 @@
+Script démarré sur 2026-11-24 00:11:51+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="150" LINES="37"]
+]666;vte.shell.postexec=0\]7;file://aby-VMware-Virtual-Platform/home/aby/dbe-eval-aby-11-09-2006\]0;aby@aby-VMware-Virtual-Platform:~/dbe-eval-aby-11-09-2006\]666;vte.shell.precmd!\[?2004h]0;aby@aby-VMware-Virtual-Platform: ~/dbe-eval-aby-11-09-2006[01;32maby@aby-VMware-Virtual-Platform[00m:[01;34m~/dbe-eval-aby-11-09-2006[00m$ [7mgit config --global init.defaultBranch main[27mgit config --global init.defaultBranch main
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://aby-VMware-Virtual-Platform/home/aby/dbe-eval-aby-11-09-2006\]0;aby@aby-VMware-Virtual-Platform:~/dbe-eval-aby-11-09-2006\]666;vte.shell.precmd!\[?2004h]0;aby@aby-VMware-Virtual-Platform: ~/dbe-eval-aby-11-09-2006[01;32maby@aby-VMware-Virtual-Platform[00m:[01;34m~/dbe-eval-aby-11-09-2006[00m$ [7mgit config --global gpg.format ssh[27mgit config --global gpg.format ssh
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://aby-VMware-Virtual-Platform/home/aby/dbe-eval-aby-11-09-2006\]0;aby@aby-VMware-Virtual-Platform:~/dbe-eval-aby-11-09-2006\]666;vte.shell.precmd!\[?2004h]0;aby@aby-VMware-Virtual-Platform: ~/dbe-eval-aby-11-09-2006[01;32maby@aby-VMware-Virtual-Platform[00m:[01;34m~/dbe-eval-aby-11-09-2006[00m$ [7mgit config --global user.signingkey ~/.ssh/id_ed25519.pub[27mgit config --global user.signingkey ~/.ssh/id_ed25519.pub
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://aby-VMware-Virtual-Platform/home/aby/dbe-eval-aby-11-09-2006\]0;aby@aby-VMware-Virtual-Platform:~/dbe-eval-aby-11-09-2006\]666;vte.shell.precmd!\[?2004h]0;aby@aby-VMware-Virtual-Platform: ~/dbe-eval-aby-11-09-2006[01;32maby@aby-VMware-Virtual-Platform[00m:[01;34m~/dbe-eval-aby-11-09-2006[00m$ [7mgit config --global commit.gpgsign true[27mgit config --global commit.gpgsign true
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://aby-VMware-Virtual-Platform/home/aby/dbe-eval-aby-11-09-2006\]0;aby@aby-VMware-Virtual-Platform:~/dbe-eval-aby-11-09-2006\]666;vte.shell.precmd!\[?2004h]0;aby@aby-VMware-Virtual-Platform: ~/dbe-eval-aby-11-09-2006[01;32maby@aby-VMware-Virtual-Platform[00m:[01;34m~/dbe-eval-aby-11-09-2006[00m$ [7mgit config --global tag.gpgSign true[27mgit config --global tag.gpgSign true
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://aby-VMware-Virtual-Platform/home/aby/dbe-eval-aby-11-09-2006\]0;aby@aby-VMware-Virtual-Platform:~/dbe-eval-aby-11-09-2006\]666;vte.shell.precmd!\[?2004h]0;aby@aby-VMware-Virtual-Platform: ~/dbe-eval-aby-11-09-2006[01;32maby@aby-VMware-Virtual-Platform[00m:[01;34m~/dbe-eval-aby-11-09-2006[00m$ git list
+[?2004l]133;C\]666;vte.shell.preexec!\git : 'list' n'est pas une commande git. Voir 'git --help'.
+
+Les commandes les plus ressemblantes sont
+	bisect
+	rev-list
+]666;vte.shell.postexec=1\]7;file://aby-VMware-Virtual-Platform/home/aby/dbe-eval-aby-11-09-2006\]0;aby@aby-VMware-Virtual-Platform:~/dbe-eval-aby-11-09-2006\]666;vte.shell.precmd!\[?2004h]0;aby@aby-VMware-Virtual-Platform: ~/dbe-eval-aby-11-09-2006[01;32maby@aby-VMware-Virtual-Platform[00m:[01;34m~/dbe-eval-aby-11-09-2006[00m$ [7mls -l ~/.ssh/id_ed25519.pub[27mls -l ~/.ssh/id_ed25519.pub
+[?2004l]133;C\]666;vte.shell.preexec!\ls: impossible d'accéder à '/home/aby/.ssh/id_ed25519.pub' : Aucun fichier ou répertoire de ce type
+]666;vte.shell.postexec=2\]7;file://aby-VMware-Virtual-Platform/home/aby/dbe-eval-aby-11-09-2006\]0;aby@aby-VMware-Virtual-Platform:~/dbe-eval-aby-11-09-2006\]666;vte.shell.precmd!\[?2004h]0;aby@aby-VMware-Virtual-Platform: ~/dbe-eval-aby-11-09-2006[01;32maby@aby-VMware-Virtual-Platform[00m:[01;34m~/dbe-eval-aby-11-09-2006[00m$ [7mssh-keygen -t ed25519 -C "$(git config --global user.email)"[27mssh-keygen -t ed25519 -C "$(git config --global user.email)"
+[?2004l]133;C\]666;vte.shell.preexec!\Generating public/private ed25519 key pair.
+Enter file in which to save the key (/home/aby/.ssh/id_ed25519): 
+Enter passphrase for "/home/aby/.ssh/id_ed25519" (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/aby/.ssh/id_ed25519
+Your public key has been saved in /home/aby/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:ze2mMCE/9AEh4r6fz9xdnpYWs53SqZ1uzMq4GX9dVew aby171060@gmail.com
+The key's randomart image is:
++--[ED25519 256]--+
+|    . . .      . |
+|   . . . .      o|
+|    .   .      ..|
+|   .     + .    E|
+|    . . S + .   .|
+|     . + o o  o .|
+|    .   = ..o =*=|
+|     . + = +*+*X+|
+|      o.+ o+oBX+ |
++----[SHA256]-----+
+]666;vte.shell.postexec=0\]7;file://aby-VMware-Virtual-Platform/home/aby/dbe-eval-aby-11-09-2006\]0;aby@aby-VMware-Virtual-Platform:~/dbe-eval-aby-11-09-2006\]666;vte.shell.precmd!\[?2004h]0;aby@aby-VMware-Virtual-Platform: ~/dbe-eval-aby-11-09-2006[01;32maby@aby-VMware-Virtual-Platform[00m:[01;34m~/dbe-eval-aby-11-09-2006[00m$ ls 6[K-l ~?[K/.ssh
+[?2004l]133;C\]666;vte.shell.preexec!\total 8
+-rw------- 1 aby aby   0 Nov 23 18:35 authorized_keys
+-rw------- 1 aby aby 464 Nov 24 00:23 id_ed25519
+-rw-r--r-- 1 aby aby 101 Nov 24 00:23 id_ed25519.pub
+]666;vte.shell.postexec=0\]7;file://aby-VMware-Virtual-Platform/home/aby/dbe-eval-aby-11-09-2006\]0;aby@aby-VMware-Virtual-Platform:~/dbe-eval-aby-11-09-2006\]666;vte.shell.precmd!\[?2004h]0;aby@aby-VMware-Virtual-Platform: ~/dbe-eval-aby-11-09-2006[01;32maby@aby-VMware-Virtual-Platform[00m:[01;34m~/dbe-eval-aby-11-09-2006[00m$ ls -l ~/.sshssh-keygen -t ed25519 -C "$(git config --global user.email)"[33Pls -l ~/.ssh/id_ed25519.pubgit list[Kconfig --global tag.gpgSign true[3@commit.gpgs[C[C[C[C[C[C[C[Cuser.signingkey ~/.ssh/id_ed25519.pub[23Pgpg.format ssh
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://aby-VMware-Virtual-Platform/home/aby/dbe-eval-aby-11-09-2006\]0;aby@aby-VMware-Virtual-Platform:~/dbe-eval-aby-11-09-2006\]666;vte.shell.precmd!\[?2004h]0;aby@aby-VMware-Virtual-Platform: ~/dbe-eval-aby-11-09-2006[01;32maby@aby-VMware-Virtual-Platform[00m:[01;34m~/dbe-eval-aby-11-09-2006[00m$ git config --global gpg.format ssh[22Pls -l ~/.[C[C[Cssh-keygen -t ed25519 -C "$(git config --global user.email)"[33Pls -l ~/.ssh/id_ed25519.pubgit list[Kconfig --global tag.gpgSign true[3@commit.gpgs[C[C[C[C[C[C[C[Cuser.signingkey ~/.ssh/id_ed25519.pub
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://aby-VMware-Virtual-Platform/home/aby/dbe-eval-aby-11-09-2006\]0;aby@aby-VMware-Virtual-Platform:~/dbe-eval-aby-11-09-2006\]666;vte.shell.precmd!\[?2004h]0;aby@aby-VMware-Virtual-Platform: ~/dbe-eval-aby-11-09-2006[01;32maby@aby-VMware-Virtual-Platform[00m:[01;34m~/dbe-eval-aby-11-09-2006[00m$ git config --global user.signingkey ~/.ssh/id_ed25519.pub[23Pgpg.format ssh[22Pls -l ~/.[C[C[Cssh-keygen -t ed25519 -C "$(git config --global user.email)"[33Pls -l ~/.ssh/id_ed25519.pubgit list[Kconfig --global tag.gpgSign true[3@commit.gpgs[C[C[C[C[C[C[C[C
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://aby-VMware-Virtual-Platform/home/aby/dbe-eval-aby-11-09-2006\]0;aby@aby-VMware-Virtual-Platform:~/dbe-eval-aby-11-09-2006\]666;vte.shell.precmd!\[?2004h]0;aby@aby-VMware-Virtual-Platform: ~/dbe-eval-aby-11-09-2006[01;32maby@aby-VMware-Virtual-Platform[00m:[01;34m~/dbe-eval-aby-11-09-2006[00m$ git config --global commit.gpgsign trueuser.signingkey ~/.ssh/id_ed25519.pub[23Pgpg.format ssh[22Pls -l ~/.[C[C[Cssh-keygen -t ed25519 -C "$(git config --global user.email)"[33Pls -l ~/.ssh/id_ed25519.pubgit list[Kconfig --global tag.gpgSign true
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://aby-VMware-Virtual-Platform/home/aby/dbe-eval-aby-11-09-2006\]0;aby@aby-VMware-Virtual-Platform:~/dbe-eval-aby-11-09-2006\]666;vte.shell.precmd!\[?2004h]0;aby@aby-VMware-Virtual-Platform: ~/dbe-eval-aby-11-09-2006[01;32maby@aby-VMware-Virtual-Platform[00m:[01;34m~/dbe-eval-aby-11-09-2006[00m$ git config --list
+[?2004l]133;C\]666;vte.shell.preexec!\[?1h=use.name=Aby[m
+user.email=aby171060@gmail.com[m
+user.signingkey=/home/aby/.ssh/id_ed25519.pub[m
+init.defaultbranch=main[m
+gpg.format=ssh[m
+commit.gpgsign=true[m
+tag.gpgsign=true[m
+core.repositoryformatversion=0[m
+core.filemode=true[m
+core.bare=false[m
+core.logallrefupdates=true[m
+remote.origin.url=https://github.com/aby1006/dbe-eval-aby-11-09-2006.git[m
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*[m
+branch.main.remote=origin[m
+branch.main.merge=refs/heads/main[m
+[K[?1l>]666;vte.shell.postexec=0\]7;file://aby-VMware-Virtual-Platform/home/aby/dbe-eval-aby-11-09-2006\]0;aby@aby-VMware-Virtual-Platform:~/dbe-eval-aby-11-09-2006\]666;vte.shell.precmd!\[?2004h]0;aby@aby-VMware-Virtual-Platform: ~/dbe-eval-aby-11-09-2006[01;32maby@aby-VMware-Virtual-Platform[00m:[01;34m~/dbe-eval-aby-11-09-2006[00m$ cat ~/.ssh/id_ed25519.pub
+[?2004l]133;C\]666;vte.shell.preexec!\ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMvy5SZcCHwQ+dOXMEpEtbyrNTOhB2yyGb/RJX9rzydk aby171060@gmail.com
+]666;vte.shell.postexec=0\]7;file://aby-VMware-Virtual-Platform/home/aby/dbe-eval-aby-11-09-2006\]0;aby@aby-VMware-Virtual-Platform:~/dbe-eval-aby-11-09-2006\]666;vte.shell.precmd!\[?2004h]0;aby@aby-VMware-Virtual-Platform: ~/dbe-eval-aby-11-09-2006[01;32maby@aby-VMware-Virtual-Platform[00m:[01;34m~/dbe-eval-aby-11-09-2006[00m$ git init 
+[?2004l]133;C\]666;vte.shell.preexec!\Dépôt Git existant réinitialisé dans /home/aby/dbe-eval-aby-11-09-2006/.git/
+]666;vte.shell.postexec=0\]7;file://aby-VMware-Virtual-Platform/home/aby/dbe-eval-aby-11-09-2006\]0;aby@aby-VMware-Virtual-Platform:~/dbe-eval-aby-11-09-2006\]666;vte.shell.precmd!\[?2004h]0;aby@aby-VMware-Virtual-Platform: ~/dbe-eval-aby-11-09-2006[01;32maby@aby-VMware-Virtual-Platform[00m:[01;34m~/dbe-eval-aby-11-09-2006[00m$ nano .gitignore
+[?2004l]133;C\]666;vte.shell.preexec!\[?2004h[?1049h[22;0;0t[1;37r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[35;66H(B[0;7m[ Nouveau fichier ](B[m[H(B[0;7m  GNU nano 8.7.1                                                         .gitignore                                                                   [1;149H(B[m[36d(B[0;7m^G(B[m Aide[36;17H(B[0;7m^O(B[m Écrire[33G(B[0;7m^F(B[m Chercher     (B[0;7m^K(B[m Couper[65G(B[0;7m^T(B[m Exécuter     (B[0;7m^C(B[m Emplacement  (B[0;7mM-U(B[m Annuler     (B[0;7mM-A(B[m Marquer     (B[0;7mM-](B[m -> Crochet[37d(B[0;7m^X(B[m Quitter[17G(B[0;7m^R(B[m Lire fich.   (B[0;7m^\(B[m Remplacer    (B[0;7m^U(B[m Coller[65G(B[0;7m^J(B[m Justifier    (B[0;7m^/(B[m Aller ligne  (B[0;7mM-E(B[m Refaire     (B[0;7mM-6(B[m Copier[129G(B[0;7m^B(B[m Retrouver[2d[?12l[?25h[?25l[1;85H(B[0;7m*[149G(B[m[?12l[?25h[2do[?25l[?12l[?25hu[?25l[?12l[?25ht[?25l[?12l[?25h/[?25l[3d[?12l[?25h[?25l[?12l[?25h*[?25l[?12l[?25h.[?25l[?12l[?25hc[?25l[?12l[?25hl[?25l[?12l[?25ha[?25l[?12l[?25hs[?25l[?12l[?25hs[?25l[4d[?12l[?25h[?25l[?12l[?25hl[?25l[?12l[?25ho[?25l[?12l[?25hg[?25l[?12l[?25hs[?25l[?12l[?25h/[?25l[?12l[?25h*[?25l[35d[K[36;17H[14X[36;31H(B[0;7mM-D(B[m Format DOS[16X[36;61H(B[0;7mM-A(B[m Ajout (à la fin)          (B[0;7mM-B(B[m Copie de sécu.            (B[0;7m^T(B[m Parcourir[K[37;2H(B[0;7mC(B[m Annul[37;17H[14X[37;31H(B[0;7mM-M(B[m Format Mac[16X[37;61H(B[0;7mM-P(B[m Ajout (au début)          (B[0;7m^Q(B[m Abandonner l'espace[K[36;133H[A(B[0;7mÉcrire dans un fichier: .gitignore                                                                                                                    [35;35H(B[m[?12l[?25h[?25l[?12l[?25h[?25l[35;67H[1K (B[0;7m[ Écriture... ](B[m[K[1;85H(B[0;7m [149G(B[m[35;66H(B[0;7m[ 3 lignes écrites ](B[m[36;17H(B[0;7m^O(B[m Écrire       (B[0;7m^F(B[m Chercher     (B[0;7m^K(B[m Couper       (B[0;7m^T(B[m Exécuter     (B[0;7m^C(B[m Emplacement  (B[0;7mM-U(B[m Annuler     (B[0;7mM-A(B[m Marquer     (B[0;7mM-](B[m -> Crochet[37;2H(B[0;7mX(B[m Quitt[37;17H(B[0;7m^R(B[m Lire fich.   (B[0;7m^\(B[m Remplacer    (B[0;7m^U(B[m Coller       (B[0;7m^J(B[m Justifier    (B[0;7m^/(B[m Aller ligne  (B[0;7mM-E(B[m Refaire     (B[0;7mM-6(B[m Copier[129G(B[0;7m^B(B[m Retrouver[?12l[?25h[4;7H[?25l[35d[J[37d[?12l[?25h[37;1H[?1049l[23;0;0t[?1l>[?2004l]666;vte.shell.postexec=0\]7;file://aby-VMware-Virtual-Platform/home/aby/dbe-eval-aby-11-09-2006\]0;aby@aby-VMware-Virtual-Platform:~/dbe-eval-aby-11-09-2006\]666;vte.shell.precmd!\[?2004h]0;aby@aby-VMware-Virtual-Platform: ~/dbe-eval-aby-11-09-2006[01;32maby@aby-VMware-Virtual-Platform[00m:[01;34m~/dbe-eval-aby-11-09-2006[00m$ git sa[Ktq[Katus --short
+[?2004l]133;C\]666;vte.shell.preexec!\[31m??[m .gitignore
+[31m??[m docs/preuves/git.log
+[31m??[m docs/preuves/git.tm
+]666;vte.shell.postexec=0\]7;file://aby-VMware-Virtual-Platform/home/aby/dbe-eval-aby-11-09-2006\]0;aby@aby-VMware-Virtual-Platform:~/dbe-eval-aby-11-09-2006\]666;vte.shell.precmd!\[?2004h]0;aby@aby-VMware-Virtual-Platform: ~/dbe-eval-aby-11-09-2006[01;32maby@aby-VMware-Virtual-Platform[00m:[01;34m~/dbe-eval-aby-11-09-2006[00m$ pwd
+[?2004l]133;C\]666;vte.shell.preexec!\/home/aby/dbe-eval-aby-11-09-2006
+]666;vte.shell.postexec=0\]7;file://aby-VMware-Virtual-Platform/home/aby/dbe-eval-aby-11-09-2006\]0;aby@aby-VMware-Virtual-Platform:~/dbe-eval-aby-11-09-2006\]666;vte.shell.precmd!\[?2004h]0;aby@aby-VMware-Virtual-Platform: ~/dbe-eval-aby-11-09-2006[01;32maby@aby-VMware-Virtual-Platform[00m:[01;34m~/dbe-eval-aby-11-09-2006[00m$ [7mfind src scripts docs rapports rendus -maxdepth 2 -type f[27mfind src scripts docs rapports rendus -maxdepth 2 -type f
+[?2004l]133;C\]666;vte.shell.preexec!\src/GenerateurLogs.java
+scripts/analyse.sh
+scripts/surveille.sh
+docs/preuves/historique_linux.txt
+docs/preuves/git.tm
+docs/preuves/git.log
+docs/preuves/linux.log
+docs/preuves/linux.tm
+rapports/rapport_aby-11-09-2006_20261123_2302.txt
+rapports/rapport_aby-11-09-2006_20261123-2244.txt
+rendus/linux_aby-11-09-2006.tar.gz
+]666;vte.shell.postexec=0\]7;file://aby-VMware-Virtual-Platform/home/aby/dbe-eval-aby-11-09-2006\]0;aby@aby-VMware-Virtual-Platform:~/dbe-eval-aby-11-09-2006\]666;vte.shell.precmd!\[?2004h]0;aby@aby-VMware-Virtual-Platform: ~/dbe-eval-aby-11-09-2006[01;32maby@aby-VMware-Virtual-Platform[00m:[01;34m~/dbe-eval-aby-11-09-2006[00m$ git sa[Ktatus --short --untracked [K-files=all
+[?2004l]133;C\]666;vte.shell.preexec!\[31m??[m .gitignore
+[31m??[m docs/preuves/git.log
+[31m??[m docs/preuves/git.tm
+]666;vte.shell.postexec=0\]7;file://aby-VMware-Virtual-Platform/home/aby/dbe-eval-aby-11-09-2006\]0;aby@aby-VMware-Virtual-Platform:~/dbe-eval-aby-11-09-2006\]666;vte.shell.precmd!\[?2004h]0;aby@aby-VMware-Virtual-Platform: ~/dbe-eval-aby-11-09-2006[01;32maby@aby-VMware-Virtual-Platform[00m:[01;34m~/dbe-eval-aby-11-09-2006[00m$ 
+[?2004l]666;vte.shell.postexec=0\]7;file://aby-VMware-Virtual-Platform/home/aby/dbe-eval-aby-11-09-2006\]0;aby@aby-VMware-Virtual-Platform:~/dbe-eval-aby-11-09-2006\]666;vte.shell.precmd!\[?2004h]0;aby@aby-VMware-Virtual-Platform: ~/dbe-eval-aby-11-09-2006[01;32maby@aby-VMware-Virtual-Platform[00m:[01;34m~/dbe-eval-aby-11-09-2006[00m$ [7mgit check-ignore -v src/GenerateurLogs.java scripts/analyse.sh rendus/linux_aby-11-09-2006.[27m[7mt[27m[7mar.gz[27m[A]0;aby@aby-VMware-Virtual-Platform: ~/dbe-eval-aby-11-09-2006[01;32maby@aby-VMware-Virtual-Platform[00m:[01;34m~/dbe-eval-aby-11-09-2006[00m$ git check-ignore -v src/GenerateurLogs.java scripts/analyse.sh rendus/linux_aby-11-09-2006.tar.gz
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=1\]7;file://aby-VMware-Virtual-Platform/home/aby/dbe-eval-aby-11-09-2006\]0;aby@aby-VMware-Virtual-Platform:~/dbe-eval-aby-11-09-2006\]666;vte.shell.precmd!\[?2004h]0;aby@aby-VMware-Virtual-Platform: ~/dbe-eval-aby-11-09-2006[01;32maby@aby-VMware-Virtual-Platform[00m:[01;34m~/dbe-eval-aby-11-09-2006[00m$ git ls-files
+[?2004l]133;C\]666;vte.shell.preexec!\docs/preuves/historique_linux.txt
+docs/preuves/linux.log
+docs/preuves/linux.tm
+linux.md
+logs/access.log
+logs/gen.err
+logs/surveillance.log
+logs/vide.log
+out/GenerateurLogs.class
+rapports/rapport_aby-11-09-2006_20261123-2244.txt
+rapports/rapport_aby-11-09-2006_20261123_2302.txt
+rendus/linux_aby-11-09-2006.tar.gz
+scripts/analyse.sh
+scripts/surveille.sh
+src/GenerateurLogs.java
+]666;vte.shell.postexec=0\]7;file://aby-VMware-Virtual-Platform/home/aby/dbe-eval-aby-11-09-2006\]0;aby@aby-VMware-Virtual-Platform:~/dbe-eval-aby-11-09-2006\]666;vte.shell.precmd!\[?2004h]0;aby@aby-VMware-Virtual-Platform: ~/dbe-eval-aby-11-09-2006[01;32maby@aby-VMware-Virtual-Platform[00m:[01;34m~/dbe-eval-aby-11-09-2006[00m$ git r;[Km -r --cached out logs
+[?2004l]133;C\]666;vte.shell.preexec!\rm 'logs/access.log'
+rm 'logs/gen.err'
+rm 'logs/surveillance.log'
+rm 'logs/vide.log'
+rm 'out/GenerateurLogs.class'
+]666;vte.shell.postexec=0\]7;file://aby-VMware-Virtual-Platform/home/aby/dbe-eval-aby-11-09-2006\]0;aby@aby-VMware-Virtual-Platform:~/dbe-eval-aby-11-09-2006\]666;vte.shell.precmd!\[?2004h]0;aby@aby-VMware-Virtual-Platform: ~/dbe-eval-aby-11-09-2006[01;32maby@aby-VMware-Virtual-Platform[00m:[01;34m~/dbe-eval-aby-11-09-2006[00m$ cat gitignore
+[?2004l]133;C\]666;vte.shell.preexec!\cat: gitignore: No such file or directory
+]666;vte.shell.postexec=1\]7;file://aby-VMware-Virtual-Platform/home/aby/dbe-eval-aby-11-09-2006\]0;aby@aby-VMware-Virtual-Platform:~/dbe-eval-aby-11-09-2006\]666;vte.shell.precmd!\[?2004h]0;aby@aby-VMware-Virtual-Platform: ~/dbe-eval-aby-11-09-2006[01;32maby@aby-VMware-Virtual-Platform[00m:[01;34m~/dbe-eval-aby-11-09-2006[00m$ cat gitignore[C[C[1@.
+[?2004l]133;C\]666;vte.shell.preexec!\out/
+*.class
+logs/*
+]666;vte.shell.postexec=0\]7;file://aby-VMware-Virtual-Platform/home/aby/dbe-eval-aby-11-09-2006\]0;aby@aby-VMware-Virtual-Platform:~/dbe-eval-aby-11-09-2006\]666;vte.shell.precmd!\[?2004h]0;aby@aby-VMware-Virtual-Platform: ~/dbe-eval-aby-11-09-2006[01;32maby@aby-VMware-Virtual-Platform[00m:[01;34m~/dbe-eval-aby-11-09-2006[00m$ git status --short
+[?2004l]133;C\]666;vte.shell.preexec!\[32mD[m  logs/access.log
+[32mD[m  logs/gen.err
+[32mD[m  logs/surveillance.log
+[32mD[m  logs/vide.log
+[32mD[m  out/GenerateurLogs.class
+[31m??[m .gitignore
+[31m??[m docs/preuves/git.log
+[31m??[m docs/preuves/git.tm
+]666;vte.shell.postexec=0\]7;file://aby-VMware-Virtual-Platform/home/aby/dbe-eval-aby-11-09-2006\]0;aby@aby-VMware-Virtual-Platform:~/dbe-eval-aby-11-09-2006\]666;vte.shell.precmd!\[?2004h]0;aby@aby-VMware-Virtual-Platform: ~/dbe-eval-aby-11-09-2006[01;32maby@aby-VMware-Virtual-Platform[00m:[01;34m~/dbe-eval-aby-11-09-2006[00m$ git stqtus[K[K[K[Katus
+[?2004l]133;C\]666;vte.shell.preexec!\Sur la branche main
+Votre branche est à jour avec 'origin/main'.
+
+Modifications qui seront validées :
+  (utilisez "git restore --staged <fichier>..." pour désindexer)
+	[32msupprimé :        logs/access.log[m
+	[32msupprimé :        logs/gen.err[m
+	[32msupprimé :        logs/surveillance.log[m
+	[32msupprimé :        logs/vide.log[m
+	[32msupprimé :        out/GenerateurLogs.class[m
+
+Fichiers non suivis:
+  (utilisez "git add <fichier>..." pour inclure dans ce qui sera validé)
+	[31m.gitignore[m
+	[31mdocs/preuves/git.log[m
+	[31mdocs/preuves/git.tm[m
+
+]666;vte.shell.postexec=0\]7;file://aby-VMware-Virtual-Platform/home/aby/dbe-eval-aby-11-09-2006\]0;aby@aby-VMware-Virtual-Platform:~/dbe-eval-aby-11-09-2006\]666;vte.shell.precmd!\[?2004h]0;aby@aby-VMware-Virtual-Platform: ~/dbe-eval-aby-11-09-2006[01;32maby@aby-VMware-Virtual-Platform[00m:[01;34m~/dbe-eval-aby-11-09-2006[00m$ git add ser/Generateurs[1P[1@s[C[1P[C[1@c[C[C[C[C[C[C[C[C[C[C[C[CLogs.java
+[?2004l]133;C\]666;vte.shell.preexec!\fatal: le chemin 'src/GenerateursLogs.java' ne correspond à aucun fichier
+]666;vte.shell.postexec=128\]7;file://aby-VMware-Virtual-Platform/home/aby/dbe-eval-aby-11-09-2006\]0;aby@aby-VMware-Virtual-Platform:~/dbe-eval-aby-11-09-2006\]666;vte.shell.precmd!\[?2004h]0;aby@aby-VMware-Virtual-Platform: ~/dbe-eval-aby-11-09-2006[01;32maby@aby-VMware-Virtual-Platform[00m:[01;34m~/dbe-eval-aby-11-09-2006[00m$ pwd
+[?2004l]133;C\]666;vte.shell.preexec!\/home/aby/dbe-eval-aby-11-09-2006
+]666;vte.shell.postexec=0\]7;file://aby-VMware-Virtual-Platform/home/aby/dbe-eval-aby-11-09-2006\]0;aby@aby-VMware-Virtual-Platform:~/dbe-eval-aby-11-09-2006\]666;vte.shell.precmd!\[?2004h]0;aby@aby-VMware-Virtual-Platform: ~/dbe-eval-aby-11-09-2006[01;32maby@aby-VMware-Virtual-Platform[00m:[01;34m~/dbe-eval-aby-11-09-2006[00m$ ls src
+[?2004l]133;C\]666;vte.shell.preexec!\GenerateurLogs.java
+]666;vte.shell.postexec=0\]7;file://aby-VMware-Virtual-Platform/home/aby/dbe-eval-aby-11-09-2006\]0;aby@aby-VMware-Virtual-Platform:~/dbe-eval-aby-11-09-2006\]666;vte.shell.precmd!\[?2004h]0;aby@aby-VMware-Virtual-Platform: ~/dbe-eval-aby-11-09-2006[01;32maby@aby-VMware-Virtual-Platform[00m:[01;34m~/dbe-eval-aby-11-09-2006[00m$ ls src[3Ppwdgit add src/GenerateursLogs.java[C[1P[1@r[C[1P
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://aby-VMware-Virtual-Platform/home/aby/dbe-eval-aby-11-09-2006\]0;aby@aby-VMware-Virtual-Platform:~/dbe-eval-aby-11-09-2006\]666;vte.shell.precmd!\[?2004h]0;aby@aby-VMware-Virtual-Platform: ~/dbe-eval-aby-11-09-2006[01;32maby@aby-VMware-Virtual-Platform[00m:[01;34m~/dbe-eval-aby-11-09-2006[00m$ git commit -m "Ajout du GenerateurLogs [K,[K.java"
+[?2004l]133;C\]666;vte.shell.preexec!\[main 7e8da7f] Ajout du GenerateurLogs.java
+ 5 files changed, 2058 deletions(-)
+ delete mode 100644 logs/access.log
+ delete mode 100644 logs/gen.err
+ delete mode 100644 logs/surveillance.log
+ delete mode 100644 logs/vide.log
+ delete mode 100644 out/GenerateurLogs.class
+]666;vte.shell.postexec=0\]7;file://aby-VMware-Virtual-Platform/home/aby/dbe-eval-aby-11-09-2006\]0;aby@aby-VMware-Virtual-Platform:~/dbe-eval-aby-11-09-2006\]666;vte.shell.precmd!\[?2004h]0;aby@aby-VMware-Virtual-Platform: ~/dbe-eval-aby-11-09-2006[01;32maby@aby-VMware-Virtual-Platform[00m:[01;34m~/dbe-eval-aby-11-09-2006[00m$ 5 files changed [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit [K[K[K[K[7mgit add scripts/analyse.sh scri
